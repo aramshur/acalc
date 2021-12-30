@@ -1,10 +1,9 @@
 # acalc  
 A simple calculator.
 
-# installing  
-To Install, do  
-  ```$ sudo mv acalc /usr/bin/acalc```  
-Then,  
-  ```$ sudo mv acalc.py /etc/acalc.py```  
+# installing   
+  ```$ sudo mv acalc /usr/bin/acalc && sudo mv acalc.py /etc/acalc.py```  
 # running  
-```acalc```
+```$ acalc```  
+# uninstalling  
+```$ sudo rm -rf /usr/bin/acalc /etc/acalc.py```
